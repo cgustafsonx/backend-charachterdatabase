@@ -1,4 +1,7 @@
 'use strict';
+
+const { all } = require("express/lib/application");
+
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('users', {
@@ -13,6 +16,8 @@ module.exports = {
       },
       email: {
         type: Sequelize.STRING
+        allowNull: false,
+        unique: true,
       },
       password: {
         type: Sequelize.STRING
