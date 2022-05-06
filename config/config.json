@@ -1,23 +1,6 @@
 {
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+"development": {
+    "url": "postgres://icijkyuq:YphxFVU-uKy-2j6o0eGTq9gJRpT8xCSf@abul.db.elephantsql.com/icijkyuq",
+    "dialect": "postgres"
   }
 }
